@@ -10,7 +10,7 @@ export default function Nav() {
             alt=""
             className="logo-img"
           />
-          Brand
+          WBC
         </NavLink>
         <button
           className="navbar-toggler"
