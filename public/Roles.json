@@ -1,0 +1,28 @@
+{
+    "results": [
+        {
+            "personId": 0,
+            "roleName": "Manager"
+        },
+        {
+            "personId": 1,
+            "roleName": "Waiter"
+        },
+        {
+            "personId": 2,
+            "roleName": "Chef"
+        },
+        {
+            "personId": 3,
+            "roleName": "Chef"
+        },
+        {
+            "personId": 4,
+            "roleName": "Waiter"
+        },
+        {
+            "personId": 5,
+            "roleName": "Waiter"
+        }
+    ]
+}
