@@ -10,7 +10,6 @@ body {
   /* Base styles for all components */
   font-size: 1.4rem;
   min-height: 100vh;
-  background-color: cadetblue;
 }
 /* 
 1.Add the name of your component instead of component
