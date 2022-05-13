@@ -6,28 +6,32 @@ const Employees = () => {
     const [people, setPeople] = useState();
 
     useEffect(() => {
+
+        // .get(process.env.REACT_APP_RUAPI)
         axios
             .get('/TempEmployees.json')
             .then(res => {
-                // console.log(res.data.results);
                 setPeople(res.data.results);
+                console.log(res.data);
             })
             .catch();
     }, [])
 
     return (
         <>
-            <h2>Our Staff</h2>
-            <h3>to ensure your pleasant stay</h3>
-            {
-                (people) ? (
-                    people.map((person, index) => {
-                        return <EmployeesCard key={index} person={person} />
-                    })
-                ) : (
-                    'Loading...'
-                )
-            }
+            <h2 className='text-center mt-3'>Our Staff</h2>
+            <h3 className='text-center'>to ensure your pleasant stay</h3>
+            <div className='d-flex justify-content-center flex-wrap'>
+                {
+                    (people) ? (
+                        people.map((person, index) => {
+                            return <EmployeesCard key={index} person={person} />
+                        })
+                    ) : (
+                        'Loading...'
+                    )
+                }
+            </div>
         </>
     )
 }

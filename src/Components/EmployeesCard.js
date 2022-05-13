@@ -2,7 +2,7 @@ import React from 'react'
 
 const EmployeesCard = ({ person }) => {
     return (
-        <div className={`container my-3`}>
+        <div className={`d-flex m-3 wrap`}>
             <div className={`card`} style={
                 {
                     width: '18rem',
