@@ -1,28 +1,28 @@
 {
-    "roles": [
+    "results": [
         {
             "personId": 0,
-            "roleName": "manager"
+            "roleName": "Manager"
         },
         {
             "personId": 1,
-            "roleName": "waiter"
+            "roleName": "Waiter"
         },
         {
             "personId": 2,
-            "roleName": "chef"
+            "roleName": "Chef"
         },
         {
             "personId": 3,
-            "roleName": "chef"
+            "roleName": "Chef"
         },
         {
             "personId": 4,
-            "roleName": "waiter"
+            "roleName": "Waiter"
         },
         {
             "personId": 5,
-            "roleName": "waiter"
+            "roleName": "Waiter"
         }
     ]
 }

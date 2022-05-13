@@ -1,18 +1,18 @@
 import React from 'react'
 
-const EmployeesCard = ({ person }) => {
+const EmployeesCard = ({ person, role }) => {
     return (
         <div className={`d-flex m-3 wrap`}>
-            <div className={`card`} style={
+            <div className={`card bg-light shadow rounded-3`} style=
                 {
-                    width: '18rem',
-                    backgroundColor: '#f9f9f9',
-                    boxShadow: '0 0 10px #ddd'
+                    {
+                        width: '18rem',
+                        overflow: 'hidden'
+                    }
                 }
-            }>
+            >
                 <div className={`cardHeader`}>
-                    {/* <p>{people}</p> */}
-                    <img
+                    <img 
                         src={`${person.picture.large}`}
                         alt={`${person.name.first} ${person.name.last}`}
                         style={
@@ -25,7 +25,7 @@ const EmployeesCard = ({ person }) => {
                 </div>
                 <div className={`cardBody`}>
                     <div className='container'>
-                        <h4>Details:</h4>
+                        <h4 className='mt-2'>{role.roleName}</h4>
                         <p>Hi, my name is {person.name.first} and I am {person.dob.age} years old.</p>
                         <p></p>
                     </div>

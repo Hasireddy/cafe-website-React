@@ -4,18 +4,24 @@ import EmployeesCard from './EmployeesCard';
 
 const Employees = () => {
     const [people, setPeople] = useState();
+    const [roles, setRoles] = useState();
+    // .get('/TempEmployees.json')
 
     useEffect(() => {
-
-        // .get(process.env.REACT_APP_RUAPI)
         axios
-            .get('/TempEmployees.json')
+        .get(process.env.REACT_APP_RUAPI)
             .then(res => {
                 setPeople(res.data.results);
-                console.log(res.data);
             })
-            .catch();
-    }, [])
+            .catch(err => console.log(`Oops, something went wrong see the Error ${err}`));
+        axios
+            .get('/Roles.json')
+            .then(res => {
+                console.log(res.data.result);
+                setRoles(res.data.results);
+            })
+            .catch(err => console.log(`Oops, something went wrong see the Error ${err}`));
+    }, []);
 
     return (
         <>
@@ -23,9 +29,15 @@ const Employees = () => {
             <h3 className='text-center'>to ensure your pleasant stay</h3>
             <div className='d-flex justify-content-center flex-wrap'>
                 {
-                    (people) ? (
+                    (people && roles) ? (
                         people.map((person, index) => {
-                            return <EmployeesCard key={index} person={person} />
+                            const role = roles.find(role => role.personId === index);
+                            console.log(role);
+                            return <EmployeesCard
+                                key={index}
+                                person={person}
+                                role={role}
+                            />
                         })
                     ) : (
                         'Loading...'
