@@ -17,15 +17,7 @@ body {
 3.NO pixels!!! only rem... (use a pixels to rem online converter if confused)-keeps it responsive
 */
 /* Nav */
-.nav {
-  padding: 2rem;
-  background-color: bisque;
-}
-.nav-link {
-  margin: 0 0.5rem;
-  text-decoration: none;
-  color: black;
-}
+
 /* Home */
 
 /* COMPONENT 1 */
