@@ -17,6 +17,9 @@ body {
 3.NO pixels!!! only rem... (use a pixels to rem online converter if confused)-keeps it responsive
 */
 /* Nav */
+.logo-img {
+  max-height: 4rem;
+}
 
 /* Home */
 
