@@ -6,7 +6,7 @@ export default function Home() {
       <section id="home">
         <div className="imgOverlay"></div>
         <div className="bg-image"></div>
-        <div className="d-flex flex-column m-5 pt-5 ">
+        <div className="d-flex flex-column m-5">
           <h1 class="text-white fs-1 fw-bold mt-5 pt-5 z-top">
             <span className="pinktext">WBC </span>
             Worlds Best Coffee
@@ -17,7 +17,7 @@ export default function Home() {
           <div className="mt-3 z-top">
             <Link
               to="/signup"
-              className="btn  px-4 py-2 rounded fs-4 bg-light me-3"
+              className="btn  px-3 py-2 rounded fs-4 bg-light me-3"
             >
               <i className="fa fa-user-plus me-1 "></i> Register
             </Link>
