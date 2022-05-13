@@ -17,7 +17,7 @@ export default function Home() {
           <div className='mt-3 z-top'>
             <Link
               to='/signup'
-              className='btn  px-3 py-2 rounded fs-4 bg-light me-3'
+              className='btn px-3 py-2 rounded fs-4 bg-light me-3'
             >
               <i className='fa fa-user-plus me-1 '></i> Register
             </Link>
