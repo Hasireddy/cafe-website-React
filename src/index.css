@@ -1,16 +1,17 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  box-sizing: border-box;
 }
 
 .App {
-    /* Base styles for all components */
-    font-size: 1.4rem;
-    min-height: 100vh;
+  /* Base styles for all components */
+  font-size: 1.4rem;
+  min-height: 100vh;
 }
-
 
 /* 
 1.Add the name of your component instead of component
@@ -18,30 +19,23 @@ body {
 3.NO pixels!!! only rem... (use a pixels to rem online converter if confused)-keeps it responsive
 */
 
-
 /* Nav */
 .logo-img {
   max-height: 4rem;
 }
 
-
 /* Home */
 
-div {
-    border: 5px solid red;
-}
-
 .image {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-image: url("https://images.pexels.com/photos/5722871/pexels-photo-5722871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-size: cover;
-    z-index: -10;
-    /* background-repeat: no-repeat; */
-    /* background-color: purple; */
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/5722871/pexels-photo-5722871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  z-index: -10;
+  /* background-repeat: no-repeat; */
+  /* background-color: purple; */
 }
-
 
 /* .Container-fluid {
     position: absolute;
@@ -51,7 +45,6 @@ div {
     background: yellow;
 } */
 
-
 /* .Container-fluid {
     background-image: url("./Components/coffe.avif");
     background-repeat: no-repeat;
@@ -60,28 +53,22 @@ div {
     height: 100%;
 } */
 
-
 /* COMPONENT 1 */
-
 
 /* COMPONENT 2 */
 
-
 /* COMPONENT 3 */
-
 
 /* COMPONENT 4 */
 
-
 /* COMPONENT 5 */
-
 
 /* Footer */
 
 .footer {
-    background-color: bisque;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
+  background-color: bisque;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
