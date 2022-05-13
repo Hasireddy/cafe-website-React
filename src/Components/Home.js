@@ -1,17 +1,32 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <>
-      <div className="image"></div>
-      <div className="row d-flex justify-content-center flex-column h-100 ">
-
-        <h1 class="text-white fs-1 fw-bold">START YOUR DAY WITH COFFEE ee</h1>
-        <p className="text-white fs-4 fst-italic mt-2">A cup of Coffee shared with friends is happiness tasted and time well spent</p>
-        <div className="">
-          <button className="btn btn-outline-light px-5 py-2 rounded fs-1 bg-dark me-2">search</button>
-          <button className="btn btn-outline-light px-5 py-2 rounded fs-1 bg-dark me-2">search</button>
+      <section id="home">
+        <div className="imgOverlay"></div>
+        <div className="bg-image"></div>
+        <div className="d-flex flex-column m-5 pt-5 ">
+          <h1 class="text-white fs-1 fw-bold mt-5 pt-5 z-top">
+            <span className="pinktext">WBC </span>
+            Worlds Best Coffee
+          </h1>
+          <p className="text-white fs-4 fst-italic mt-2 z-top">
+            The taste of happiness and time well spent
+          </p>
+          <div className="mt-3 z-top">
+            <Link
+              to="/signup"
+              className="btn  px-4 py-2 rounded fs-4 bg-light me-3"
+            >
+              <i className="fa fa-user-plus me-1 "></i> Register
+            </Link>
+            <Link to="/login" className="btn  px-4 py-2 rounded fs-4 bg-light ">
+              <i className="fa fa-sign-in me-1"></i> Login
+            </Link>
+          </div>
         </div>
-      </div>
-
-    </>);
-
+      </section>
+    </>
+  );
 }
