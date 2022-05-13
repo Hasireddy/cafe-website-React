@@ -3,10 +3,11 @@ import { Routes, Route } from "react-router-dom";
 //Components
 import Nav from "./Components/Nav";
 import Home from "./Components/Home";
-import Component1 from "./Components/Component1";
-import Component2 from "./Components/Component2";
-import Component3 from "./Components/Component3";
-import Component4 from "./Components/Component4";
+import About from "./Components/About";
+import Employees from "./Components/Employees";
+import Gallery from "./Components/Gallery";
+import Contact from "./Components/Contact";
+
 import Footer from "./Components/Footer";
 
 function App() {
@@ -15,10 +16,10 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/component1" element={<Component1 />} />
-        <Route path="/component2" element={<Component2 />} />
-        <Route path="/component3" element={<Component3 />} />
-        <Route path="/component4" element={<Component4 />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/employees" element={<Employees />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

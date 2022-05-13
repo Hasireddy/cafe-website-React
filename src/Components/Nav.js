@@ -13,30 +13,30 @@ export default function Nav() {
       <NavLink
         style={({ isActive }) => ({ color: isActive ? "#ee3d89" : "" })}
         className="nav-link"
-        to="/component1"
+        to="/about"
       >
-        Component1
+        About
       </NavLink>
       <NavLink
         style={({ isActive }) => ({ color: isActive ? "#ee3d89" : "" })}
         className="nav-link"
-        to="/Component2"
+        to="/employees"
       >
-        Component2
+        Employees
       </NavLink>
       <NavLink
         style={({ isActive }) => ({ color: isActive ? "#ee3d89" : "" })}
         className="nav-link"
-        to="/Component3"
+        to="/gallery"
       >
-        Component3
+        Gallery
       </NavLink>
       <NavLink
         style={({ isActive }) => ({ color: isActive ? "#ee3d89" : "" })}
         className="nav-link"
-        to="/Component4"
+        to="/contact"
       >
-        Component4
+        Contact
       </NavLink>
     </div>
   );
