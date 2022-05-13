@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
+.App {
+  /* Base styles for all components */
+  font-size: 1.4rem;
+  min-height: 100vh;
+  background-color: cadetblue;
+}
+/* 
+1.Add the name of your component instead of component
+2.Try to keep all your styles in your own component
+3.NO pixels!!! only rem... (use a pixels to rem online converter if confused)-keeps it responsive
+*/
+/* Nav */
+.nav {
+  padding: 2rem;
+  background-color: bisque;
+}
+.nav-link {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+/* Home */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* COMPONENT 1 */
+
+/* COMPONENT 2 */
+
+/* COMPONENT 3 */
+
+/* COMPONENT 4 */
+
+/* COMPONENT 5 */
+
+/* Footer */
+
+.footer {
+  background-color: bisque;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
