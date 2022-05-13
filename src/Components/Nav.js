@@ -5,6 +5,11 @@ export default function Nav() {
     <nav className="nav navbar navbar-expand-lg navbar-light bg-white py-1 shadow-sm sticky-top">
       <div className="container">
         <NavLink className="navbar-brand fw-bold fs-4 " to="/">
+          <img
+            src="https://cdn.pixabay.com/photo/2012/04/13/00/58/coffee-31496_960_720.png"
+            alt=""
+            className="logo-img"
+          />
           Brand
         </NavLink>
         <button
@@ -74,7 +79,7 @@ export default function Nav() {
             <NavLink to="/login" className="btn btn-outline-dark">
               <i className="fa fa-sign-in me-1" to="/login"></i> Login
             </NavLink>
-            <NavLink to="/register" className="btn btn-outline-dark ms-2">
+            <NavLink to="/signup" className="btn btn-outline-dark ms-2">
               <i className="fa fa-user-plus me-1"></i> Register
             </NavLink>
           </div>
