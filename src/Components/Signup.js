@@ -2,7 +2,7 @@ export default function Signup() {
   return (
     <div class="container">
       <div className="row">
-        <div className="col-md-6 offset-md-4">
+        <div className="col-md-6 offset-md-3">
           <h2 className="text-center text-dark mt-3">Register</h2>
           <div className="text-center mb-5 text-dark">
             Please complete all fields
