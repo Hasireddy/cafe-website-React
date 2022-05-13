@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   box-sizing: border-box;
 }
@@ -31,8 +31,8 @@ body {
   display: relative !important;
   min-height: 85vh;
 }
-.bg-image {
-  background-image: url("https://images.pexels.com/photos/5722871/pexels-photo-5722871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+.bg-image-custom {
+  background-image: url('https://images.pexels.com/photos/5722871/pexels-photo-5722871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,34 +65,6 @@ body {
   color: #ee3d89;
   font-size: 3rem;
 }
-
-/* .Container-fluid {
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 200px;
-    background: yellow;
-} */
-
-/* .Container-fluid {
-    background-image: url("./Components/coffe.avif");
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-} */
-
-/* COMPONENT 1 */
-
-/* COMPONENT 2 */
-
-/* COMPONENT 3 */
-
-/* COMPONENT 4 */
-
-/* COMPONENT 5 */
-
-/* Footer */
 
 .footer {
   background-color: bisque;
